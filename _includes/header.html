@@ -15,6 +15,12 @@
 	</div>
 	<nav class="site-nav">
 		<ul>
+			<li>
+				<a href="">test1</a>
+			</li>
+			<li>
+				<a href="">test2</a>
+			</li>
 			{% if site.theme_settings.site_navigation_sort %}
 				{% assign site_pages = site.pages | sort: site.theme_settings.site_navigation_sort %}
 			{% else %}
@@ -45,15 +51,4 @@
             {% endif %}
 		</ul>
 	</nav>
-
-	<div class ="categories">
-		<ul>
-			<li>
-				<a class = "cate-link" href="">카테1</a>
-			</li>
-			<li>
-				<a class = "cate-link" href="">카테2</a>
-			</li>
-		</ul>
-	</div>
 </header>
